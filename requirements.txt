@@ -24,12 +24,12 @@ defusedxml==0.7.1
 docopt==0.6.2
 entrypoints==0.4
 
-fiona==1.8.19
+Fiona==1.8.19
 
 folium==0.12.1.post1
 fonttools==4.29.1
 
-gdal==3.2.3
+GDAL==3.2.3
 
 geopandas==0.10.2
 
@@ -94,7 +94,7 @@ requests==2.27.1
 scipy==1.7.3
 Send2Trash==1.8.0
 
-shapely==1.8.0
+Shapely==1.8.0
 
 six==1.16.0
 smmap==5.0.0
