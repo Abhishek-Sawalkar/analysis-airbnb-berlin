@@ -24,13 +24,15 @@ defusedxml==0.7.1
 docopt==0.6.2
 entrypoints==0.4
 
-./whl_for_geopandas/Fiona-1.8.19-cp37-cp37m-win_amd64.whl
+fiona==1.8.19
+
 folium==0.12.1.post1
 fonttools==4.29.1
 
-./whl_for_geopandas/GDAL-3.2.3-cp37-cp37m-win_amd64.whl
+gdal==3.2.3
 
-./whl_for_geopandas/geopandas-0.10.2-py2.py3-none-any.whl
+geopandas==0.10.2
+
 gitdb==4.0.9
 GitPython==3.1.26
 idna==3.3
@@ -79,7 +81,8 @@ Pygments==2.11.2
 Pympler==1.0.1
 pyparsing==3.0.7
 
-./whl_for_geopandas/pyproj-3.2.1-cp37-cp37m-win_amd64.whl
+pyproj==3.2.1
+
 pyrsistent==0.18.1
 python-dateutil==2.8.2
 pytz==2021.3
@@ -91,7 +94,8 @@ requests==2.27.1
 scipy==1.7.3
 Send2Trash==1.8.0
 
-./whl_for_geopandas/Shapely-1.8.0-cp37-cp37m-win_amd64.whl
+shapely==1.8.0
+
 six==1.16.0
 smmap==5.0.0
 statsmodels==0.13.2
