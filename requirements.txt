@@ -23,11 +23,14 @@ decorator==5.1.1
 defusedxml==0.7.1
 docopt==0.6.2
 entrypoints==0.4
-Fiona @ file:///whl_for_geopandas/Fiona-1.8.19-cp37-cp37m-win_amd64.whl
+
+./whl_for_geopandas/Fiona-1.8.19-cp37-cp37m-win_amd64.whl
 folium==0.12.1.post1
 fonttools==4.29.1
-GDAL @ file:///G:/abhi/Airbnb_proj/GDAL-3.2.3-cp37-cp37m-win_amd64.whl
-geopandas @ file:///G:/abhi/Airbnb_proj/geopandas-0.10.2-py2.py3-none-any.whl
+
+./whl_for_geopandas/GDAL-3.2.3-cp37-cp37m-win_amd64.whl
+
+./whl_for_geopandas/geopandas-0.10.2-py2.py3-none-any.whl
 gitdb==4.0.9
 GitPython==3.1.26
 idna==3.3
@@ -75,7 +78,8 @@ pydeck==0.7.1
 Pygments==2.11.2
 Pympler==1.0.1
 pyparsing==3.0.7
-pyproj @ file:///G:/abhi/Airbnb_proj/pyproj-3.2.1-cp37-cp37m-win_amd64.whl
+
+./whl_for_geopandas/pyproj-3.2.1-cp37-cp37m-win_amd64.whl
 pyrsistent==0.18.1
 python-dateutil==2.8.2
 pytz==2021.3
@@ -86,7 +90,8 @@ pyzmq==22.3.0
 requests==2.27.1
 scipy==1.7.3
 Send2Trash==1.8.0
-Shapely @ file:///G:/abhi/Airbnb_proj/Shapely-1.8.0-cp37-cp37m-win_amd64.whl
+
+./whl_for_geopandas/Shapely-1.8.0-cp37-cp37m-win_amd64.whl
 six==1.16.0
 smmap==5.0.0
 statsmodels==0.13.2
