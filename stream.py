@@ -601,7 +601,7 @@ elif rad == "Question 3":
     with col2:
         st.markdown('<h3 align="center" style="font-size:19px"><b>Station Locations</b></h3>', unsafe_allow_html=True)
         # folium_static(m)
-        st.image('images\garten.png')
+        st.image('./images/station.png')
 
     col1, col2 = st.columns(2)
     
