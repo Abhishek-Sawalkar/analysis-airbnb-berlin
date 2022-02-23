@@ -617,7 +617,7 @@ elif rad == "Question 3":
     with col2:
         st.markdown('<h3 align="center" style="font-size:19px"><b>Biergarten Locations</b></h3>', unsafe_allow_html=True)
         # folium_static(m)
-        st.image('images\garten.png')
+        st.image('./images/garten.png')
 
 
     st.markdown('''<h3 style='color: #486D87;'>Modelling and Insights:</h3>''', unsafe_allow_html=True)
@@ -633,7 +633,7 @@ elif rad == "Question 3":
                     and Class 1 means rating ranging from 1-9.</li></ul>''', unsafe_allow_html=True)
 
     with col2:
-        col2.image('images\class.png')
+        col2.image('./images/class.png')
 
     st.markdown('''<h4>- Applying Machine Learning Models:</h4></br>''', unsafe_allow_html=True)
     st.markdown('''I used Logistic Regression and tuned as much as I can. I used Logistic Regression so I can get the base line 
@@ -653,11 +653,11 @@ elif rad == "Question 3":
 
     col1, col2 = st.columns(2)
     col1.table(res)
-    col2.image('images\confusion_matrix.png')
+    col2.image('./images/confusion_matrix.png')
 
     st.markdown('''<h4>- Insights from the Model:</h4></br>''', unsafe_allow_html=True)
 
-    st.image('images\loc_feat_imp.png')
+    st.image('./images/loc_feat_imp.png')
     st.write("")
     st.markdown('''<ul><li>First of all, A higher score in feature importance means that the specific feature will have a larger effect on the model 
                 that is being used to predict a certain variable.</li><li>As a result, attributes linked to 'property type' are 
